@@ -1,10 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net46;net461;net462;net47;net471;net472;net48;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>NullSoftware</RootNamespace>
     <AssemblyName>awp_wpf</AssemblyName>
     <PackageId>AutoWindowPlacement.WPF</PackageId>

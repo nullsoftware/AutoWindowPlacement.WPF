@@ -39,7 +39,7 @@ Add the namespace to your Window XAML:
 <Window x:Class="YourApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:awp="clr-namespace:NullSoftware.Windows.Extensions;assembly=awp_wpf"
+        xmlns:awp="https://github.com/nullsoftware/AutoWindowPlacement.WPF"
         awp:WindowExtensions.PlacementStorageStrategy="{awp:RegistryStorage}"
         Title="Main Window" Height="450" Width="800">
     <!-- Your window content -->
@@ -55,7 +55,7 @@ That's it! The window position and state will now be automatically saved to the 
 The simplest way to use AutoWindowPlacement is with the built-in `RegistryStorage`:
 
 ```xml
-<Window xmlns:awp="clr-namespace:NullSoftware.Windows.Extensions;assembly=awp_wpf"
+<Window xmlns:awp="https://github.com/nullsoftware/AutoWindowPlacement.WPF"
         awp:WindowExtensions.PlacementStorageStrategy="{awp:RegistryStorage}">
 </Window>
 ```

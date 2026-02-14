@@ -12,7 +12,6 @@ A lightweight library that automatically saves and restores WPF window positions
 - **Extensible storage** - Implement custom storage strategies (JSON, XML, database, etc.)
 - **Simple XAML integration** - Add with a single line of code
 - **Zero dependencies** - Pure WPF implementation
-- **Multi-targeting** - Supports .NET Framework 4.6+ and .NET 5+
 
 ## Supported Frameworks
 

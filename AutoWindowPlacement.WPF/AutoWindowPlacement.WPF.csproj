@@ -19,8 +19,13 @@
     <FileVersion>1.0.0.0</FileVersion>
     <Version>1.0.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright © Null Software, 2026. All rights reserved.</Copyright>
     <PackageTags>WPF Windows Registry Window Position State WindowState Placement WindowPlacement Win32</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
